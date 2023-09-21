@@ -74,7 +74,7 @@ declare const appRouter: _trpc_server.CreateRouterInner<
               id: string;
               email: string;
               name: string;
-              userNewName: string;
+              username: string;
               role: 'administrator' | 'apprentice' | 'standard';
               imageUrl?: string | undefined;
             }[];
@@ -136,7 +136,7 @@ declare const appRouter: _trpc_server.CreateRouterInner<
             id: string;
             email: string;
             name: string;
-            userNewName: string;
+            username: string;
             role: 'administrator' | 'apprentice' | 'standard';
             imageUrl?: string | undefined;
           }>[]
@@ -179,7 +179,7 @@ declare const appRouter: _trpc_server.CreateRouterInner<
               id: string;
               email: string;
               name: string;
-              userNewName: string;
+              username: string;
               role: 'administrator' | 'apprentice' | 'standard';
               imageUrl?: string | undefined;
             }>
@@ -227,7 +227,7 @@ declare const appRouter: _trpc_server.CreateRouterInner<
             id: string;
             email: string;
             name: string;
-            userNewName: string;
+            username: string;
             role: 'administrator' | 'apprentice' | 'standard';
             imageUrl?: string | undefined;
           }>[]
@@ -265,7 +265,7 @@ declare const appRouter: _trpc_server.CreateRouterInner<
               user: {
                 email: string;
                 name: string;
-                userNewName: string;
+                username: string;
                 role: 'administrator' | 'apprentice' | 'standard';
                 imageUrl?: string | undefined;
               };
@@ -274,7 +274,7 @@ declare const appRouter: _trpc_server.CreateRouterInner<
               user: {
                 email: string;
                 name: string;
-                userNewName: string;
+                username: string;
                 role: 'administrator' | 'apprentice' | 'standard';
                 imageUrl?: string | undefined;
               };
@@ -286,7 +286,7 @@ declare const appRouter: _trpc_server.CreateRouterInner<
             id: string;
             email: string;
             name: string;
-            userNewName: string;
+            username: string;
             role: 'administrator' | 'apprentice' | 'standard';
             imageUrl?: string | undefined;
           }

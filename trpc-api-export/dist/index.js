@@ -34,7 +34,7 @@ var UserConfigSchema = import_zod.z.object({
   id: import_zod.z.string(),
   email: import_zod.z.string(),
   name: import_zod.z.string(),
-  username: import_zod.z.string(),
+  userAccountName: import_zod.z.string(),
   imageUrl: import_zod.z.string().optional(),
   role: import_zod.z.enum(USER_ROLES),
 });

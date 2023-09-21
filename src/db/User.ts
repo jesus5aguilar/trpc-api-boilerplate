@@ -6,7 +6,7 @@ export const UserConfigSchema = z.object({
   id: z.string(),
   email: z.string(),
   name: z.string(),
-  userAccountName: z.string(),
+  userAccName: z.string(),
   imageUrl: z.string().optional(),
   role: z.enum(USER_ROLES),
 });
